@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Cathedral Builder",
+  "description": "Dig rock, cut stone and raise a Gothic cathedral stone by stone before the 13th century ends in this free incremental game in your browser.",
+  "about": "It is the 13th century, the golden age of cathedrals, and you have exactly 100 years to finish one. Dig up rock, cut it into stones and lay them one by one while the months tick by. Every stone appears on screen, so you watch the choir, the long nave and finally the twin towers of the facade rise out of nothing.\n\nEach level you reach pays you gold and sometimes releases a floating bonus worth grabbing. Spend gold wisely: upgrades make digging, cutting and begging faster and more productive, while auto-click boosters keep the work going for ten seconds on their own. Balancing rock, stone and gold against the clock is what makes every run tense until the last years.\n\nOriginally created by Homer Dilpleu for js13kGames 2023.",
+  "howToPlay": "Press DIG to get rock, then CUT to turn each rock into stones, and press BUILD CATHEDRAL to lay them. Reaching each level goal gives you gold and sometimes a bonus to catch. Spend gold on upgrades and auto-click boosters. Lay all 34,570 stones before the year 1300 to win.",
+  "controls": [
+    { "input": "Mouse click", "action": "Press DIG, CUT, BEG, BUILD and the booster buttons" },
+    { "input": "Tap", "action": "Press any button on touch screens" },
+    { "input": "Click or tap a bonus", "action": "Collect the floating bonus plate" },
+    { "input": "Speaker button", "action": "Mute or unmute the music" }
+  ],
+  "tips": [
+    "Keep a small stock of rock so CUT never stalls; each rock gives a whole batch of stones.",
+    "Stone upgrades are the best early purchase because they multiply how many stones each cut produces.",
+    "Buy the building auto-click once you have plenty of stones so construction runs while you dig and cut.",
+    "Catch every floating bonus quickly; the auto-click bonus powers all your workers for ten seconds."
+  ],
+  "faq": [
+    { "question": "Is Cathedral Builder free to play?", "answer": "Yes, it is completely free and runs in your browser with nothing to install." },
+    { "question": "Can I play on a phone or tablet?", "answer": "Yes. The layout adapts to portrait and landscape screens and every button works with a simple tap." },
+    { "question": "How long does a game last?", "answer": "One month passes every fifth of a second, so the 100 years take about four minutes of play." }
+  ],
+  "category": "Strategy",
+  "tags": ["clicker", "incremental", "building", "medieval", "cathedral"],
+  "author": "Homer Dilpleu",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": ["screenshots/1.png", "screenshots/2.png", "screenshots/3.png"],
+  "added": "2026-09-28",
+  "draft": false
+}

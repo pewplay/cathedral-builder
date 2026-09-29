@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #FFDDCA;
+  overscroll-behavior: none;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#game {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#mute {
+  position: absolute;
+  top: max(8px, env(safe-area-inset-top));
+  right: max(8px, env(safe-area-inset-right));
+  width: 44px;
+  height: 44px;
+  padding: 9px;
+  border: 2px solid #411F0C;
+  border-radius: 6px;
+  background: rgba(255, 221, 202, 0.85);
+  color: #411F0C;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#mute:focus-visible {
+  outline: 3px solid #876552;
+  outline-offset: 2px;
+}
+
+#mute svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#mute .speaker { fill: currentColor; }
+#mute .cross { display: none; }
+#mute.muted .cross { display: inline; }
+#mute.muted .waves { display: none; }
